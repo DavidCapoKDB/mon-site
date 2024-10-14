@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary, .btn-danger {
+    font-weight: bold;
+}
